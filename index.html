@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html>
+	
+	<head>
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap" rel="stylesheet">
+		
+		
+		<style type="text/css" media="screen">
+			body{
+				font-family: "Montserrat", sans-serif;
+				padding: 25px;
+			}
+			
+			.section-title-section{
+				display: flex;
+				align-items: center;
+				align-content: ;
+				margin: 40px 0 20px 0;
+			}
+			
+			.hr-line-right{
+				margin-left: 10px;
+				height: 1px;
+				width: 100%;
+				background: black;
+			}
+			
+			.hr-line-left{
+				margin-right: 10px;
+				height: 1px;
+				width: 10%;
+				background: black;
+			}
+			
+			.section-title{
+				font-weight: 600;
+				text-transform: uppercase;
+			}
+			
+			.text-light{
+				line-height: 1.4;
+				font-weight: 200;
+			}
+			
+			.job-title{
+				font-weight: 600;
+				margin: 25px 0 10px 0;
+			}
+			
+			.company{
+				line-height: 1.4;
+				font-weight: 200;
+			}
+			
+			.time-at-job{
+				line-height: 1.4;
+				font-weight: 200;
+			}
+			
+			.institute{
+				font-weight: 600;
+			}
+			
+			h1{
+				margin: 0;
+			}
+		</style>
+		
+	</head>
+	
 	<body>
 		<h1>Jude Lawrence</h1>
-		<div class='title'>CRM Management / Project Management / Scrum Master</div>
+		<div class="title text-light">CRM Management / Project Management / Scrum Master</div>
 		
 		<div section="description">
-			<div class='section-title'>Introduction</div>
-			<div class='text-block'>
+			<div class="section-title-section">
+				<div class="hr-line-left"></div><div class="section-title">Introduction</div><div class="hr-line-right"></div>
+			</div><!-- section-title-section -->
+			<div class="text-light">
 				I am a self-taught enterprising professional with a love of technology, design, business processes, and automation. 
 				I have experience changing a company that managed sales on a spreadsheet, to running a fully-fledged CRM system with a B2M model, 
 				with built-in business analytics and intelligence, and automations saving over 200 hours of work per month, among many other initiatives. 
@@ -16,9 +87,11 @@
 		</div><!-- Section .description -->
 		
 		<section class="skills">
-			<div class='section-title'>Key Skills</div>
-			<div class=''>
-				<ul>
+			<div class="section-title-section">
+				<div class="hr-line-left"></div><div class="section-title">Skills</div><div class="hr-line-right"></div>
+			</div><!-- section-title-section -->
+			<div class="">
+				<ul class="text-light">
 					<li>CRM Development / Management</li>
 					<li>Team Leadership</li>
 					<li>Business Systems and Processes</li>
@@ -30,13 +103,15 @@
 		</div><!-- Section .skills -->
 		
 		<section class="experience">
-		<div class='section-title'>Experience</div>
-		<div class='job'>
-			<div class='job-title'>Head of Technology / Business Ops Specialist</div>
-			<div class='company'>Ecoventure</div>
-			<div class='time-at-job'>2014 Sep - Present</div>
-			<div class='job-description'>  
-				<ul> 
+		<div class="section-title-section">
+				<div class="hr-line-left"></div><div class="section-title">Experience</div><div class="hr-line-right"></div>
+			</div><!-- section-title-section -->
+		<div class="job">
+			<div class="job-title">Head of Technology / Business Ops Specialist</div>
+			<div class="company">Ecoventure</div>
+			<div class="time-at-job">2014 Sep - Present</div>
+			<div class="job-description">  
+				<ul class="text-light"> 
 			    	<li>Designing and implementing new company processes and sales pipelines.</li>
 					<li>Developed CRM for managing all sales - 250+ bookings, 500+ opportunities generating 15 million dirhams in revenue each year that can to be managed by 2 people</li>
 					<li>Developed Complete HR platform for recruitment and staff management</li>
@@ -52,12 +127,12 @@
 			</div><!-- .job-description -->
 		</div><!-- .job -->
 		
-		<div class='job'>
-			<div class='job-title'>Logistics Coordinator</div>
-			<div class='company'>Ecoventure</div>
-			<div class='time-at-job'>2013 Sep - 2014 Sep</div>
-			<div class='job-description'>
-				<ul>
+		<div class="job">
+			<div class="job-title">Logistics Coordinator</div>
+			<div class="company">Ecoventure</div>
+			<div class="time-at-job">2013 Sep - 2014 Sep</div>
+			<div class="job-description">
+				<ul class="text-light">
 					<li>Managing all LPOs for camp programs. Creating new procedures for LPOs and camp scheduling.</li>
 					<li>Created costing sheets / pivot tables in Excel and google sheets for P&Ls.</li>
 					<li>Created new staff rota system in Google Sheets</li>
@@ -65,12 +140,12 @@
 			</div><!-- .job-description -->
 		</div><!-- .job -->
 		
-		<div class='job'>
-		<div class='job-title'>Team Leader</div>
-		<div class='company'>Ecoventure</div>
-		<div class='time-at-job'>2011 Nov - 2013 Aug</div>
-		<div class='job-description'>
-			<ul>
+		<div class="job">
+		<div class="job-title">Team Leader</div>
+		<div class="company">Ecoventure</div>
+		<div class="time-at-job">2011 Nov - 2013 Aug</div>
+		<div class="job-description">
+			<ul class="text-light">
 				<li>Staff training and support</li>
 				<li>Staff Scheduling</li>
 				<li>Talking with school staff, and creating a camp experience to meet their expectations</li>
@@ -78,12 +153,12 @@
 		</div><!-- .job-description -->
 		</div><!-- .job -->
 		
-		<div class='job'>
-			<div class='job-title'>Lead Site Technician</div>
-			<div class='company'>VANOC - Vancouver Winter Olympics</div>
-			<div class='time-at-job'>2009 Oct - 2010 May</div>
-			<div class='job-description'>
-			    <ul>
+		<div class="job">
+			<div class="job-title">Lead Site Technician</div>
+			<div class="company">VANOC - Vancouver Winter Olympics</div>
+			<div class="time-at-job">2009 Oct - 2010 May</div>
+			<div class="job-description">
+			    <ul class="text-light">
 					<li>Managing onsite support team</li>
 					<li>Managing onsite service calls</li>
 					<li>Deployment and decommission of IT infrastructure at Olympic sites</li>
@@ -93,12 +168,12 @@
 		</div><!-- .job -->
 		
 		
-		<div class='job'>
-			<div class='job-title'>Apple Service Technician </div>
-			<div class='company'>Imagetext</div>
-			<div class='time-at-job'>2002 Jul - 2009 Mar</div>
-			<div class='job-description'>
-			    <ul>
+		<div class="job">
+			<div class="job-title">Apple Service Technician </div>
+			<div class="company">Imagetext</div>
+			<div class="time-at-job">2002 Jul - 2009 Mar</div>
+			<div class="job-description">
+			    <ul class="text-light">
 			        <li>Onsite installation and support of IT infrastructure</li>
 					<li>Managed and all in-house service repairs</li>
 					<li>Hardware and software diagnosis and repair</li>
@@ -107,12 +182,12 @@
 			</div><!-- .job-description -->
 		</div><!-- .job -->
 		
-		<div class='job'>
-			<div class='job-title'>Mac Operator</div>
-			<div class='company'>Colourart</div>
-			<div class='time-at-job'></div>
-			<div class='job-description'>
-				<ul>
+		<div class="job">
+			<div class="job-title">Mac Operator</div>
+			<div class="company">Colourart</div>
+			<div class="time-at-job"></div>
+			<div class="job-description">
+				<ul class="text-light">
 					<li>Documents preparation for print. bleed, colour saturations, picture resolutions, text corrections, colour profiles, over print. Attention to Small detail.</li>
 					<li>Document Imposition</li>
 					<li>Time tracking and management for billing jobs.</li>
@@ -123,27 +198,29 @@
 		</div><!-- .experience -->
 		
 		<section class="education">
-			<div class='section-title'>Qualifications / Education</div>
+			<div class="section-title-section">
+				<div class="hr-line-left"></div><div class="section-title">Qualifications</div><div class="hr-line-right"></div>
+			</div><!-- section-title-section -->
 		
 			<div class="institute">Learning Institute - 2021</div>
-			<ul>
+			<ul class="text-light">
 				<li>Certified SAFe® 5 Scrum Master</li>
 			</ul>
 		
 			<div class="institute">Apple Certifications - 2002 to 2012</div>
-			<ul>
+			<ul class="text-light">
 				<li>Certified Apple Service Technician 2002-2012 </li>
 				<li>Certified Apple Server Technician 2008-2010 </li>
 				<li>Certified Final Cut Pro Expert 2009-2010</li>
 			</ul>
 		
 			<div class="institute">Auckland Institute of Technology -  1998 to 1999</div>
-			<ul>
+			<ul class="text-light">
 				<li>Pre-Trade Electrical Diploma</li>
 			</ul>
 		
 			<div class="institute">Mount Roskill Grammar -  1993-1997</div>
-			<ul>
+			<ul class="text-light">
 				<li>6th Form Certificate - IT, Graphic Design, Maths, English, Physics</li>
 			</ul>
 		</div><!-- Section .education -->
